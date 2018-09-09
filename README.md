@@ -1,5 +1,8 @@
 # LocalStorageEvents
-
+Enterprise angular applications often need login. These store the Auth token in the session storage.
+Problem is when trying to open links in new tab, the session storage is not accessible across tabs.
+This project gets around this problem by temporarily(fraction of a milli second) storing the auth token in the local storage. 
+Criticism may be that storing auth token in local storage may not be safe. In the project's defence it is only for a very small amount of time.. and also it that it is a very small security trade off for a better user experiance.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
 ## Development server
