@@ -1,8 +1,8 @@
 # LocalStorageEvents
 Enterprise angular applications often need login. These store the Auth token in the session storage.
 Problem is when trying to open links in new tab, the session storage is not accessible across tabs. Thus, when the user opens a link in the new tab, she is forced to login again.
-This project gets around this problem by temporarily(fraction of a milli second) storing the auth token in the local storage. 
-Criticism may be that storing auth token in local storage may not be secure. In the project's defence it is only for a very small amount of time.. and also it that it is a very small security trade off for a better user experiance.
+This project gets around this problem by temporarily storing the auth token in the local storage. 
+Criticism may be that storing auth token in local storage may not be secure. trade off for a better user experiance.
 
 CREDITS : https://blog.guya.net/2015/06/12/sharing-sessionstorage-between-tabs-for-secure-multi-tab-authentication/
 
