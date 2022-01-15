@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: angular-SPA-with-multi-tab-support
+  annotations:
+    github.com/project-slug: AdithyaPrabhu/angular-SPA-with-multi-tab-support
+spec:
+  type: other
+  lifecycle: unknown
+  owner: acme-corp
